@@ -1,0 +1,21 @@
+{
+  "name": "simple-sw-generator",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Node.js script to generate simple Service Worker file",
+  "keywords": [
+    "sw",
+    "sw-generator",
+    "node.js"
+  ],
+  "author": "Mateusz Adamczyk (https://github.com/bobbylej)",
+  "license": "MIT",
+  "main": "sw-generator.js",
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "minimist": "^1.2.0"
+  },
+  "bin": {
+    "simple-sw-generator": "sw-generator.js"
+  }
+}
